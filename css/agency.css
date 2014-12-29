@@ -23,6 +23,10 @@ body {
     color: #fff;
 }
 
+#dark-text {
+    color: #000;
+}
+
 
 .text-primary {
     color: #F8A531;
