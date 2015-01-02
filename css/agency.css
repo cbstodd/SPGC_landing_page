@@ -95,7 +95,6 @@ body {
 .expert-quote {
     text-align: left;
 
-
 }
 
 .expert-name {
@@ -922,13 +921,6 @@ section h3.section-subheading-benefits {
 
 }
 
-#video-header {
-    text-transform: capitalize;
-    font-size: 50px;
-
-}
-
-
 section.video img {
     margin: 50px auto;
 
@@ -946,6 +938,10 @@ section.video img {
     font-weight: 100;
 }
 
+#video-frame {
+    margin-left: -30px;
+}
+
 section#contact {
     background-color: #0C5988;
     background-image: url(../img/white-bg.png);
@@ -956,6 +952,7 @@ section#contact {
 section#contact .section-heading {
     color: #000;
     text-transform: uppercase;
+    font-size: 50px;
 
 }
 
