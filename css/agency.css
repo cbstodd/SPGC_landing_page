@@ -150,7 +150,7 @@ h6 {
 }
 
 .bg-blue-footprint {
-    background: url(../img/blue-footprints.jpg) #0C5988 repeat-x;
+    background: url(../img/blue-footprints.jpg) #0C5988 repeat;
 
 
 
@@ -185,6 +185,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     background-image: none;
     background-color: #1790D2;
+    color: #fff;
 
 }
 
@@ -205,6 +206,7 @@ fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
     border-color: #F8A531;
     background-color: #F8A531;
+    color: #fff;
 }
 
 
@@ -220,12 +222,12 @@ fieldset[disabled] .btn-primary.active {
 /*    border-radius: 3px;*/
     text-transform: uppercase;
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
     color: #fff;
     background-color: #F8A531;
     border-radius: 15px;
-    padding: 1em 3.03em 1em;}
+    padding: .70em 2.03em .70em;
 }
 
 .btn-xl:hover,
@@ -233,17 +235,20 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    background-color: #f6bf01;
     color: #fff;
-    background-color: #F88D29;
+    border-color: ;-color: #F8A531;
     border-radius: 15px;
-    padding: 1em 3.03em 1em;}
+    padding: .70em 2.03em .70em;
+
 }
+
 
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     background-image: none;
+    color: #fff;
 }
 
 .btn-xl.disabled,
@@ -263,8 +268,10 @@ fieldset[disabled] .btn-xl:active,
 fieldset[disabled] .btn-xl.active {
     border-color: #F8A531;
     background-color: #F8A531;
+    color: #fff;
     border-radius: 15px;
-    padding: 1em 3.03em 1em;}
+    padding: .70em 2.03em .70em;
+
 }
 
 .btn-xl .badge {
@@ -378,7 +385,7 @@ fieldset[disabled] .btn-xl.active {
 
 #orange-bubble {
     font-size: 10px;
-    background-color: #F88D29;
+    background-color: #F8A531;
     color: #fff;
     padding: 0.3em 3.03em 0.3em;
     margin: 10px 5px 5px 5px;
@@ -454,6 +461,7 @@ header .intro-text .green-text {
 
 #black-header {
     color: #000;
+    font-size: 25px;
     font-weight: 100;
     padding-left: 35px;
     text-decoration: none;
@@ -504,8 +512,8 @@ section {
 }
 
 section h2.section-heading {
-    margin: 0 10% 30px 10%;
-    font-size: 40px;
+    margin: 0 0 30px 0;
+    font-size: 35px;
     text-transform: none;
 }
 
@@ -514,13 +522,21 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "nimbus-sans-condensed",sans-serif;
-    font-size: px;
     font-style: normal;
     font-weight: 100;
     padding: 0 20% 0 20%;
     text-align: center;
 }
 
+section h3.section-subheading-benefits {
+    margin-bottom: 30px;
+    text-transform: none;
+    font-family: "nimbus-sans-condensed",sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    padding: 0 20% 0 20%;
+    text-align: center;
+}
 
 @media(min-width:768px) {
     section {
@@ -549,7 +565,7 @@ section h3.section-subheading {
 #gastro-link {
     font-size: 20px;
     color: #FEE550;
-    margin-top: 100px;
+    
 
 }
 
@@ -860,7 +876,7 @@ section h3.section-subheading {
 /*--------TEAM----Start-------*/
 
 #team {
-    padding-top: 50px;
+    padding-top: auto;
     text-align: center;
     background-attachment: scroll;
     background-color: #1790D2;
@@ -980,7 +996,7 @@ section#contact .text-danger {
     border-color: #0A5988;
     color: #fff;
     border-radius: 15px;
-    padding: 1em 3.03em 1em;
+    padding: .50em 2.03em .50em;
 }
 
 footer {
@@ -1037,7 +1053,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #F8A531;
+    background-color: #9C9C9C;
 }
 
 .btn:focus,
@@ -1045,6 +1061,7 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
     outline: 0;
+    color: #fff;
 }
 
 .tweet-text {
